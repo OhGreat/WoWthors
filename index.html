@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/indexStyle.css" />
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/indexScripts.js"></script>
+</head>
+<body>
+<div id="wrapper">
+  <div id="header"></div>
+
+  <div id="navbar" class="stickyNavBar">
+    <img id="logo" src="images/icons/logos/logo-last.png">
+    <div id="barsmenu" class="barsmenu" onclick="toggleMenuView();">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+    </div>
+    <ul id="menuList" class="menuDesktopView">
+      <li id="homePage"     class="pressedState">Home</li>
+      <li id="booksPage"    class="idleState">Books</li>
+      <li id="cinemaPage"   class="idleState">Cinema</li>
+      <li id="seriesPage"   class="idleState">Series</li>
+      <li id="faqPage"      class="idleState">About</li>
+      <li id="contactPage"  class="idleState">Contact</li>
+
+      <div id="searchContainer">
+        <input type="search" id="search" placeholder="Search...">
+        <img id="searchIcon" src="images/icons/search2.png">
+      </div>
+    </ul>
+  </div>
+
+  <div id ="main"></div>
+
+  <img id="returnToTop" src="images/icons/back_to_top.png">
+
+  <div id="footer">
+
+      <div id="contacts">
+        <div class="contactsText">
+          find us on:
+        </div>
+        <div id="contactIconsContainer">
+          <img src="images/icons/logos/facebook.png">
+          <img src="images/icons/logos/twitter.png">
+          <img src="images/icons/logos/tumblr.png">
+          <img src="images/icons/logos/instagram.png">
+          <img src="images/icons/logos/youtube.png">
+        </div>
+        <div class="contactsText">
+          info@wowthors.com
+        </div>
+      </div>
+    <div id="newsletter">
+      <p>Subscribe to our newsletter:</p>
+      <div id="subscribeInputs">
+        <input type="text" placeholder="insert email...">
+        <input type="submit" value="Subscribe">
+      </div>
+      <p class="smallLetters">(*a verification email will be sent)</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
