@@ -1,5 +1,5 @@
 # WoWthors
-webpage-blog
+responsive light webpage-blog
 
-you can find the site on:
+preview it on:
 https://enginerd.000webhostapp.com/
